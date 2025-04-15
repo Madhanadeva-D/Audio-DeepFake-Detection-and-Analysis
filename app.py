@@ -7,7 +7,7 @@ from sklearn.preprocessing import LabelEncoder
 import librosa.display
 import pandas as pd
 
-model_path = ("my_model.keras")
+model_path = ("my_model.h5")
 model = load_model(model_path)
 
 feature_df = pd.DataFrame({"class": ["FAKE", "REAL"]})  
